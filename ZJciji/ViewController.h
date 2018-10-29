@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic)  UIButton *button;
+@property (strong, nonatomic)  UILabel *uiLabel;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) BOOL flag;
 
 @end
 

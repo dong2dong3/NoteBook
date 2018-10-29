@@ -15,6 +15,20 @@
 		2F326FB02156360500F27F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FAF2156360500F27F9F /* main.m */; };
 		2F326FBA2156360500F27F9F /* ZJcijiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FB92156360500F27F9F /* ZJcijiTests.m */; };
 		2F326FC52156360500F27F9F /* ZJcijiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FC42156360500F27F9F /* ZJcijiUITests.m */; };
+		2F326FD421563F1600F27F9F /* huahua.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F326FD321563F1600F27F9F /* huahua.jpeg */; };
+		2F326FD621563F9800F27F9F /* mengji.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F326FD521563F9800F27F9F /* mengji.jpeg */; };
+		2F326FD92156400000F27F9F /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FD82156400000F27F9F /* ZJViewController.m */; };
+		2F326FDC215646F800F27F9F /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FDB215646F800F27F9F /* DrawViewController.m */; };
+		2F326FDF2156470F00F27F9F /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F326FDE2156470F00F27F9F /* DrawView.m */; };
+		2F3CC96C2171B05B004F8F3C /* BusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC96B2171B05B004F8F3C /* BusinessObject.m */; };
+		2F3CC96F2171B6FD004F8F3C /* BaseObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC96E2171B6FD004F8F3C /* BaseObjectA.m */; };
+		2F3CC9722171B716004F8F3C /* BaseObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC9712171B716004F8F3C /* BaseObjectB.m */; };
+		2F3CC9752171B7E0004F8F3C /* ObjectB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC9742171B7E0004F8F3C /* ObjectB1.m */; };
+		2F3CC9782171B81A004F8F3C /* ObjectA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC9772171B81A004F8F3C /* ObjectA1.m */; };
+		2F3CC97B2171D3C0004F8F3C /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC97A2171D3C0004F8F3C /* Command.m */; };
+		2F3CC97E2171D514004F8F3C /* CommandsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CC97D2171D514004F8F3C /* CommandsManager.m */; };
+		2F40FF2C215C970A009E22FB /* NSTimer+ZJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F40FF2B215C970A009E22FB /* NSTimer+ZJTimer.m */; };
+		2FB27ACB215729F300673207 /* ZJline.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB27ACA215729F300673207 /* ZJline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,32 @@
 		2F326FC02156360500F27F9F /* ZJcijiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJcijiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F326FC42156360500F27F9F /* ZJcijiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJcijiUITests.m; sourceTree = "<group>"; };
 		2F326FC62156360500F27F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F326FD321563F1600F27F9F /* huahua.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = huahua.jpeg; path = ../../../Downloads/huahua.jpeg; sourceTree = "<group>"; };
+		2F326FD521563F9800F27F9F /* mengji.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mengji.jpeg; sourceTree = "<group>"; };
+		2F326FD72156400000F27F9F /* ZJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		2F326FD82156400000F27F9F /* ZJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		2F326FDA215646F800F27F9F /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		2F326FDB215646F800F27F9F /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		2F326FDD2156470F00F27F9F /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		2F326FDE2156470F00F27F9F /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		2F3CC96A2171B05B004F8F3C /* BusinessObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessObject.h; sourceTree = "<group>"; };
+		2F3CC96B2171B05B004F8F3C /* BusinessObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessObject.m; sourceTree = "<group>"; };
+		2F3CC96D2171B6FD004F8F3C /* BaseObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectA.h; sourceTree = "<group>"; };
+		2F3CC96E2171B6FD004F8F3C /* BaseObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectA.m; sourceTree = "<group>"; };
+		2F3CC9702171B716004F8F3C /* BaseObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectB.h; sourceTree = "<group>"; };
+		2F3CC9712171B716004F8F3C /* BaseObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectB.m; sourceTree = "<group>"; };
+		2F3CC9732171B7E0004F8F3C /* ObjectB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB1.h; sourceTree = "<group>"; };
+		2F3CC9742171B7E0004F8F3C /* ObjectB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB1.m; sourceTree = "<group>"; };
+		2F3CC9762171B81A004F8F3C /* ObjectA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectA1.h; sourceTree = "<group>"; };
+		2F3CC9772171B81A004F8F3C /* ObjectA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectA1.m; sourceTree = "<group>"; };
+		2F3CC9792171D3C0004F8F3C /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		2F3CC97A2171D3C0004F8F3C /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		2F3CC97C2171D514004F8F3C /* CommandsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandsManager.h; sourceTree = "<group>"; };
+		2F3CC97D2171D514004F8F3C /* CommandsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandsManager.m; sourceTree = "<group>"; };
+		2F40FF2A215C970A009E22FB /* NSTimer+ZJTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ZJTimer.h"; sourceTree = "<group>"; };
+		2F40FF2B215C970A009E22FB /* NSTimer+ZJTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ZJTimer.m"; sourceTree = "<group>"; };
+		2FB27AC9215729F300673207 /* ZJline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJline.h; sourceTree = "<group>"; };
+		2FB27ACA215729F300673207 /* ZJline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJline.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +145,37 @@
 				2F326FA1215635FC00F27F9F /* AppDelegate.m */,
 				2F326FA3215635FC00F27F9F /* ViewController.h */,
 				2F326FA4215635FC00F27F9F /* ViewController.m */,
+				2F40FF2A215C970A009E22FB /* NSTimer+ZJTimer.h */,
+				2F40FF2B215C970A009E22FB /* NSTimer+ZJTimer.m */,
+				2F326FDA215646F800F27F9F /* DrawViewController.h */,
+				2F326FDB215646F800F27F9F /* DrawViewController.m */,
+				2F326FDD2156470F00F27F9F /* DrawView.h */,
+				2F326FDE2156470F00F27F9F /* DrawView.m */,
+				2FB27AC9215729F300673207 /* ZJline.h */,
+				2FB27ACA215729F300673207 /* ZJline.m */,
+				2F3CC96A2171B05B004F8F3C /* BusinessObject.h */,
+				2F3CC96D2171B6FD004F8F3C /* BaseObjectA.h */,
+				2F3CC96E2171B6FD004F8F3C /* BaseObjectA.m */,
+				2F3CC9702171B716004F8F3C /* BaseObjectB.h */,
+				2F3CC9712171B716004F8F3C /* BaseObjectB.m */,
+				2F3CC9732171B7E0004F8F3C /* ObjectB1.h */,
+				2F3CC9762171B81A004F8F3C /* ObjectA1.h */,
+				2F3CC9772171B81A004F8F3C /* ObjectA1.m */,
+				2F3CC9792171D3C0004F8F3C /* Command.h */,
+				2F3CC97A2171D3C0004F8F3C /* Command.m */,
+				2F3CC97C2171D514004F8F3C /* CommandsManager.h */,
+				2F3CC97D2171D514004F8F3C /* CommandsManager.m */,
+				2F3CC9742171B7E0004F8F3C /* ObjectB1.m */,
+				2F3CC96B2171B05B004F8F3C /* BusinessObject.m */,
+				2F326FD72156400000F27F9F /* ZJViewController.h */,
+				2F326FD82156400000F27F9F /* ZJViewController.m */,
 				2F326FA6215635FC00F27F9F /* Main.storyboard */,
 				2F326FA92156360500F27F9F /* Assets.xcassets */,
 				2F326FAB2156360500F27F9F /* LaunchScreen.storyboard */,
 				2F326FAE2156360500F27F9F /* Info.plist */,
 				2F326FAF2156360500F27F9F /* main.m */,
+				2F326FD521563F9800F27F9F /* mengji.jpeg */,
+				2F326FD321563F1600F27F9F /* huahua.jpeg */,
 			);
 			path = ZJciji;
 			sourceTree = "<group>";
@@ -237,7 +303,9 @@
 			files = (
 				2F326FAD2156360500F27F9F /* LaunchScreen.storyboard in Resources */,
 				2F326FAA2156360500F27F9F /* Assets.xcassets in Resources */,
+				2F326FD621563F9800F27F9F /* mengji.jpeg in Resources */,
 				2F326FA8215635FC00F27F9F /* Main.storyboard in Resources */,
+				2F326FD421563F1600F27F9F /* huahua.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3CC96C2171B05B004F8F3C /* BusinessObject.m in Sources */,
+				2FB27ACB215729F300673207 /* ZJline.m in Sources */,
+				2F326FD92156400000F27F9F /* ZJViewController.m in Sources */,
+				2F3CC97B2171D3C0004F8F3C /* Command.m in Sources */,
+				2F3CC9752171B7E0004F8F3C /* ObjectB1.m in Sources */,
+				2F326FDC215646F800F27F9F /* DrawViewController.m in Sources */,
+				2F3CC9722171B716004F8F3C /* BaseObjectB.m in Sources */,
+				2F3CC9782171B81A004F8F3C /* ObjectA1.m in Sources */,
+				2F326FDF2156470F00F27F9F /* DrawView.m in Sources */,
+				2F3CC97E2171D514004F8F3C /* CommandsManager.m in Sources */,
 				2F326FA5215635FC00F27F9F /* ViewController.m in Sources */,
 				2F326FB02156360500F27F9F /* main.m in Sources */,
+				2F3CC96F2171B6FD004F8F3C /* BaseObjectA.m in Sources */,
+				2F40FF2C215C970A009E22FB /* NSTimer+ZJTimer.m in Sources */,
 				2F326FA2215635FC00F27F9F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AYPA5T7XE;
 				INFOPLIST_FILE = ZJciji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AYPA5T7XE;
 				INFOPLIST_FILE = ZJciji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
